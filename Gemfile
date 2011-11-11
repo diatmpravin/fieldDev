@@ -42,7 +42,7 @@ group :test do
   gem 'turn', :require => false
 end
 
-gem 'spree_heroku'
+# gem 'spree_heroku'
 
 #gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
 gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'

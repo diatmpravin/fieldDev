@@ -1,0 +1,66 @@
+x bundle install
+x rake db:create
+x rails g spree:site
+x bundle exec rake spree_sample:load
+x rake db:bootstrap
+x bundle exec rake assets:precompile RAILS_ENV=development RAILS_ASSETS_NONDIGEST=true
+x rake assets:clean
+
+replace erb with haml
+
+Put a decent skin on it
+
+get asset files to populate database with photos and prices
+get logo / brand
+get address / phone number
+register domain
+setup git
+setup hosting at heroku w/ SSL
+register for S3 account
+
+CC processing?
+Interface to amazon data?
+Interface to OMX data?
+
+get login for mozenda
+get login for channelmax
+get login for supplier B2B accounts
+apply for Amazon Seller Central account with MWS
+codify logins as environment variables (ensure secure)
+
+make web admin logins for matt amero, matt spetzler, myself
+
+populate database with as much order history as possible
+
+Research expansion to Amazon Europe
+Look at high running SKUs to get subset if we want
+Learn about Oakley's drop ship EDI requirements
+Diagram supplier network with lead times - where is supplier database
+
+Order comes from online store or amazon, XML feed request on cron job (or push) from Amazon > website
+Order gets pushed to OMX when received, after reformatting and being databased
+Inventory gets updated as items ship or items are received in OMX, request data behind scenes > website
+- Amazon gets updated as well programmatically
+Integrate website shopping cart with OMX?
+
+
+Sign up for Amazon EFN (European fulfillment network)
+Shipment of high runners to UK, in stock and FBA
+
+Look into optical scanning option to streamline warehouse operation - how to "check in" etc work today
+
+Customer promotions / surveys / rebates / etc
+Bundling?
+
+Ebay seller account - how does it work?
+Google products - how does it work?
+
+brogues
+cardigan
+shirts
+motorcycle parts
+
+
+where do we compete - Vertical - product - geography
+how do we compete - faster shipping times (in stock), lower prices, high customer sat
+

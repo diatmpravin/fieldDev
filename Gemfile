@@ -13,6 +13,7 @@ gem 'spree', '~> 0.70.1'
 gem 'pg'
 #gem 'devise', '~> 1.4.7'
 
+# gem 'aws-s3', :require => 'aws/s3'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -42,8 +43,8 @@ group :test do
 end
 
 # gem 'spree_heroku'
-#gem 'aws-s3', :require => 'aws/s3'
 
 #gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
+
 gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
 

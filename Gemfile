@@ -9,7 +9,6 @@ gem 'sqlite3'
 #gem 'activerecord-postgresql-adapter'
 gem 'spree', '~> 0.70.1'
 
-gem 'aws-s3', :require => 'aws/s3'
 #gem 'haml', '~> 3.0.18'
 gem 'pg'
 #gem 'devise', '~> 1.4.7'
@@ -43,6 +42,7 @@ group :test do
 end
 
 # gem 'spree_heroku'
+#gem 'aws-s3', :require => 'aws/s3'
 
 #gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
 gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'

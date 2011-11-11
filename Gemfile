@@ -6,7 +6,10 @@ gem 'rails', '3.1.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'pg'
+
+group :production do
+	gem 'pg'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -31,9 +34,9 @@ gem 'spree', '~> 0.70.1'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-#gem 'aws-s3', :require => 'aws/s3'
-#gem 'spree_heroku'
-#gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
+gem 'spree_heroku'
+gem 'aws-s3', :require => 'aws/s3'
+gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
 
 group :test do
   # Pretty printed test output

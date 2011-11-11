@@ -33,10 +33,12 @@ gem 'spree', '~> 0.70.1'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
+
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
 
-gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
+
 

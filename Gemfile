@@ -6,14 +6,9 @@ gem 'rails', '3.1.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-#gem 'activerecord-postgresql-adapter'
-gem 'spree', '~> 0.70.1'
-
-#gem 'haml', '~> 3.0.18'
 gem 'pg'
-#gem 'devise', '~> 1.4.7'
-
-# gem 'aws-s3', :require => 'aws/s3'
+#gem 'aws-s3', :require => 'aws/s3'
+#gem 'spree_heroku'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -24,6 +19,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'spree', '~> 0.70.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -41,10 +37,6 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
-
-# gem 'spree_heroku'
-
-#gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
 
 gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
 

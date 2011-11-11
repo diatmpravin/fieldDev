@@ -9,15 +9,31 @@ x rake assets:clean
 x Configure git
 x Test the application - nothing to test
 x Reskin the store
-setup hosting at heroku w/ SSL
-register for S3 account
+x Override some aspect of the store as a test > image
+x setup hosting at heroku
+
+log into Field Day Amazon Seller Central Account
+get address / phone number
+register domain
+
+get login for mozenda
+get login for channelmax
+get login for supplier B2B accounts
+apply for Amazon Seller Central account with MWS
+
+Enable SSL on Heroku
+Enable S3 on Heroku
 
 
-Override some aspect of the store as a test
-Make a supplier map - lead times, data, volumes, skus, locations, payment terms, contacts
-Get product data - images, prices, etc
+get asset files to populate database with photos and prices
+get logo / brand
 
-Machine to keep us in sync w/ suppliers on all websites
+make web admin logins for matt amero, matt spetzler, myself
+
+CC processing?
+
+
+
 Machine to miminize delays / late orders / wrong orders
 - prioritization algorithm - pack this next, chase this supplier next, email this customer next, raise price on stuff we want to sell less of
 
@@ -32,29 +48,17 @@ Cron job / delayed job plugin for spree to do throttling
 
 Get data on who has the low price every 15 minutes, but need to map our items to the items of others, Amazon can do this
 
+Make a supplier map - lead times, data, volumes, skus, locations, payment terms, contacts
+
 Take high running products, by volume and margin, and see the report
 - Confirm that these items are selling in Europe, and at what premium
 - Import duties / taxes - do suppliers already have european distribution
 
-replace erb with haml
+Machine to keep us in sync w/ suppliers on all websites
+- codify logins as environment variables (ensure secure)
+- Interface to amazon data?
+- Interface to OMX data?
 
-
-
-get asset files to populate database with photos and prices
-get logo / brand
-get address / phone number
-register domain
-CC processing?
-Interface to amazon data?
-Interface to OMX data?
-
-get login for mozenda
-get login for channelmax
-get login for supplier B2B accounts
-apply for Amazon Seller Central account with MWS
-codify logins as environment variables (ensure secure)
-
-make web admin logins for matt amero, matt spetzler, myself
 
 populate database with as much order history as possible
 

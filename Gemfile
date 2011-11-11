@@ -6,11 +6,12 @@ gem 'rails', '3.1.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+#gem 'activerecord-postgresql-adapter'
 gem 'spree', '~> 0.70.1'
 
 #gem 'aws-s3', :require => 'aws/s3'
 #gem 'haml', '~> 3.0.18'
-#gem 'heroku'
+gem 'pg'
 #gem 'devise', '~> 1.4.7'
 
 

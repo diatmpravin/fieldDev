@@ -40,3 +40,7 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+
+#gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git
+gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
+

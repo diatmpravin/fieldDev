@@ -6,8 +6,6 @@ gem 'spree', '~> 0.70.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-
-
 group :production do
 	gem 'pg'
 end
@@ -38,8 +36,8 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'spree_heroku'
-gem 'aws-s3', :require => 'aws/s3'
+#gem 'spree_heroku'
+#gem 'aws-s3', :require => 'aws/s3'
 gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
 
 group :test do

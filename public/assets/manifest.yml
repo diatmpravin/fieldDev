@@ -1,5 +1,6 @@
 ---
 store/logo.png: store/logo.png
+store/satellite-radios-bg.png: store/satellite-radios-bg.png
 admin/all.js: admin/all.js
 store/all.js: store/all.js
 admin/all.css: admin/all.css

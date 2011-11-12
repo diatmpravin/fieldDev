@@ -28,7 +28,7 @@ gem 'jquery-rails'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+#gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -44,3 +44,4 @@ end
 gem 'spree', '~> 0.70.1'
 gem 'spree_heroku'
 gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
+#gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'

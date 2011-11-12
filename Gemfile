@@ -38,6 +38,7 @@ gem 'jquery-rails'
 
 #gem 'spree_heroku'
 #gem 'aws-s3', :require => 'aws/s3'
+gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git'
 gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
 
 group :test do

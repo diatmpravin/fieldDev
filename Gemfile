@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
+gem 'aws-s3', :require => 'aws/s3'
 gem 'spree', '~> 0.70.1'
 #gem 'spree', :git => 'git://github.com/spree/spree.git'sp
 
@@ -38,7 +39,7 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'spree_heroku'
-gem 'aws-s3', :require => 'aws/s3'
+
 #gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git'
 gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
 

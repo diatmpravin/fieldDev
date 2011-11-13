@@ -1,10 +1,7 @@
 ---
+store/kid.jpg: store/kid.jpg
 store/logo.png: store/logo.png
 store/satellite-radios-bg.jpg: store/satellite-radios-bg.jpg
-admin/all.js: admin/all.js
-store/all.js: store/all.js
-admin/all.css: admin/all.css
-store/all.css: store/all.css
 store/bg.jpg: store/bg.jpg
 store/footer_bkgd.jpg: store/footer_bkgd.jpg
 store/icons/american-express-curved-32px.png: store/icons/american-express-curved-32px.png
@@ -15,7 +12,6 @@ store/icons/social-icons-rollover.png: store/icons/social-icons-rollover.png
 store/icons/social-icons.png: store/icons/social-icons.png
 store/icons/twitter.png: store/icons/twitter.png
 store/icons/visa-curved-32px.png: store/icons/visa-curved-32px.png
-store/kid.jpg: store/kid.jpg
 store/narrow_bg.png: store/narrow_bg.png
 store/search_bg_s1.gif: store/search_bg_s1.gif
 store/shadow_top.png: store/shadow_top.png
@@ -41,9 +37,6 @@ fancybox/fancy_title_right.png: fancybox/fancy_title_right.png
 fancybox/fancybox-x.png: fancybox/fancybox-x.png
 fancybox/fancybox-y.png: fancybox/fancybox-y.png
 fancybox/fancybox.png: fancybox/fancybox.png
-admin/spree_dash.js: admin/spree_dash.js
-admin/spree_dash.css: admin/spree_dash.css
-jqPlot/excanvas.min.js: jqPlot/excanvas.min.js
 admin/bg/active-tab.png: admin/bg/active-tab.png
 admin/bg/admin_tab_back.png: admin/bg/admin_tab_back.png
 admin/bg/admin_tab_selected_back.png: admin/bg/admin_tab_selected_back.png
@@ -136,8 +129,6 @@ noimage/mini.png: noimage/mini.png
 noimage/product.png: noimage/product.png
 noimage/small.png: noimage/small.png
 spinner.gif: spinner.gif
-admin/images/new.js: admin/images/new.js
-admin/orders/edit_form.js: admin/orders/edit_form.js
 datepicker/cal.gif: datepicker/cal.gif
 jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png: jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png
 jquery-ui/ui-bg_flat_0_eeeeee_40x100.png: jquery-ui/ui-bg_flat_0_eeeeee_40x100.png

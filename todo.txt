@@ -15,6 +15,7 @@ x setup hosting at heroku
 WTF
 * Image loads on local but not on heroku, same appraoch as other image which works - why
 * Image uploads do NOT work on local but do work on heroku - why
+* Cannot put things in the shopping cart - why
 * Lots of deprecation warnings, errors, etc - why
 
 

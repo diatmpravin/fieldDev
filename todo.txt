@@ -12,6 +12,13 @@ x Reskin the store
 x Override some aspect of the store as a test > image
 x setup hosting at heroku
 
+WTF
+* Image loads on local but not on heroku, same appraoch as other image which works - why
+* Image uploads do NOT work on local but do work on heroku - why
+* Lots of deprecation warnins, errors, etc - why
+
+
+
 log into Field Day Amazon Seller Central Account
 get address / phone number
 register domain

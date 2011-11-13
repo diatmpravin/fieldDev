@@ -21,8 +21,8 @@ get login for channelmax
 get login for supplier B2B accounts
 apply for Amazon Seller Central account with MWS
 
-Enable SSL on Heroku
-Enable S3 on Heroku
+x Enable SSL on Heroku
+x Enable S3 on Heroku
 
 
 get asset files to populate database with photos and prices

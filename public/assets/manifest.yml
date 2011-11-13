@@ -1,6 +1,6 @@
----
+--- 
 store/logo.png: store/logo.png
-store/satellite-radios-bg.png: store/satellite-radios-bg.png
+store/satellite-radios-bg.jpg: store/satellite-radios-bg.jpg
 admin/all.js: admin/all.js
 store/all.js: store/all.js
 admin/all.css: admin/all.css
@@ -17,7 +17,6 @@ store/icons/twitter.png: store/icons/twitter.png
 store/icons/visa-curved-32px.png: store/icons/visa-curved-32px.png
 store/kid.jpg: store/kid.jpg
 store/narrow_bg.png: store/narrow_bg.png
-store/satellite-radios-bg.jpg: store/satellite-radios-bg.jpg
 store/search_bg_s1.gif: store/search_bg_s1.gif
 store/shadow_top.png: store/shadow_top.png
 store/social-icons-rollover.png: store/social-icons-rollover.png

@@ -20,6 +20,7 @@ group :assets do
   gem 'sass-rails',   '~> 3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
+  gem 'therubyracer'
 end
 
 gem 'jquery-rails'
@@ -42,6 +43,10 @@ group :test do
 end
 
 gem 'spree', '~> 0.70.1'
+
+# Spree Import Products
+#gem 'import_products', :git => 'git://github.com/joshmcarthur/spree-import-products.git'
+#gem 'delayed_job_active_record'
 
 group :production do
 	gem 'spree_heroku'
